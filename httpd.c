@@ -47,6 +47,7 @@ void serve_file(int, const char *);
 int startup(u_short *);
 void unimplemented(int);
 
+
 /**********************************************************************/
 /* A request has caused a call to accept() on the server port to
  * return.  Process the request appropriately.
